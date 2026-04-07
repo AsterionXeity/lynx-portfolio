@@ -1,14 +1,14 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Lynx",
-  lastName: "Ignacio",
+  firstName: "Asterion",
+  lastName: "Nightcaller",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Software Developer / Devices Engineer",
   avatar: "/images/avatar.jpg",
-  email: "lynkazoyuu@gmail.com",
+  email: "[lynkazoyuu@gmail.com]",
   location: "Europe/Amsterdam", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -18,8 +18,10 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+     ## 📌 Socials  
+I go by **`AsterionVT`** almost everywhere online.  
+Here are the places where I’m most active on:
+
     </>
   ),
 };
@@ -28,19 +30,34 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://https://github.com/LYNK-INCUU",
+    name: "YouTube",
+    icon: "youtube",
+    link: "https://www.youtube.com/@AsterionVT",
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/#",
+    name: "Twitter",
+    icon: "twitter",
+    link: "https://twitter.com/AsterionVT",
+  },
+  {
+    name: "Twitch",
+    icon: "twitch",
+    link: "https://www.twitch.tv/asterionvt",
   },
   {
     name: "BlueSky",
     icon: "threads",
-    link: "https://bsky.app/profile/lynxstxrtouchvt.kawaii.social",
+    link: "https://bsky.app/profile/asterionvt.kawaii.social",
+  },
+  {
+    name: "GitHub",
+    icon: "github",
+    link: "https://github.com/AsterionXeity",
+  },
+  {
+    name: "Social Link",
+    icon: "link",
+    link: "https://solo.to/asterionvt",
   },
   {
     name: "Email",
@@ -55,7 +72,8 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Nothing is Limited</>,
+  headline: <>Demonic Elf Astral Lord~
+VStreamer | Producer | Artist</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Novabreak</strong></>,
